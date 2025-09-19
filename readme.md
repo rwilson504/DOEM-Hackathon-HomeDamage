@@ -34,6 +34,21 @@ Specifically, this repo:
 
 ---
 
+## 🌐 Related Repositories
+
+Our hackathon solution is made up of multiple repositories that work together to form a unified, data-driven emergency management system.  
+Although this repository focuses on the Home Damage Assessment website, the following repos support other key parts of the solution:
+
+| Repository | Description | Key Tech |
+|-----------|-------------|---------|
+| [DOEM-Hackathon-RouteRestrictions](https://github.com/rwilson504/DOEM-Hackathon-RouteRestrictions) | API for current road closures and restrictions, enabling responders to plan safe travel routes. | Azure Functions, SQL, APIM |
+| [MCP-EmergencyManagement-AzureFunction](https://github.com/rwilson504/MCP-EmergencyManagement-AzureFunction) | The Mapping MCP Server that aggregates travel data, caches results, and integrates with Azure Maps to produce fire-aware routing. | Azure Functions (MCP Extensions), Storage Account, Azure Maps |
+| [redhelpers-2025](https://github.com/airshiner/redhelpers-2025) | Open data API for humanitarian resources (shelters, aid stations, services). Used as a live data feed for APIM + MCP integration. | SQL, Data API Builder, Static Web Apps |
+
+> **Note:** The SafeBerts data API was implemented similarly to RedHelpers but is not included here as a separate repository.
+
+---
+
 ## 🚀 Project Architecture
 
 1. **SQL Database** – Stores all damage assessment records (location, type, severity, status).
