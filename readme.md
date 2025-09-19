@@ -1,4 +1,4 @@
-# 🏚️ AI Powered Disaster Response System with MCP Server – Hackathon Project
+# ⛑️ AI Powered Disaster Response System with MCP Server – Hackathon Project
 
 ## 🌍 Overview: Bringing Data Together for Emergency Management
 
