@@ -1,4 +1,4 @@
-# ⛑️ AI Powered Disaster Response System with MCP Server – Hackathon Project
+# ⛑️ AI Powered Disaster Response System with MCP Servers – Hackathon Project
 
 ## 🌍 Overview: Bringing Data Together for Emergency Management
 
@@ -6,7 +6,7 @@ In real-world disasters, response teams need fast, reliable access to multiple s
 from **damage assessments**, to **travel restrictions**, to **shelter availability**, to **supply chain data**.  
 
 For this hackathon, our team built an **end-to-end solution** to unify these data sources using modern cloud technologies.  
-We connected multiple SQL-backed APIs (RedHelpers, SafeBirds), internal state APIs (Travel Route Restrictions),  
+We connected multiple SQL-backed APIs (RedHelpers, SafeBerts), internal state APIs (Travel Route Restrictions),  
 and geospatial data (Azure Maps) into a **single conversational experience** powered by **Copilot Studio**.
 
 Our solution demonstrates how emergency managers could quickly query:
